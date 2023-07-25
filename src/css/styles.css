@@ -1,0 +1,172 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar {
+    height: 100vh;
+    width: 125px;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    transition: transform 0.1s ease-in-out;
+    transform: translateX(-100%);
+}
+
+.sidebar.open {
+    transform: translateX(0);
+}
+
+.sidebar h1 {
+    margin-bottom: 20px;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar li {
+    margin-bottom: 10px;
+}
+
+.sidebar a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.content {
+    margin-left: 0px;
+    padding: 20px;
+}
+
+.content.open {
+    margin-left: 150px;
+    padding: 20px;
+}
+
+header {
+    background-color: #007BFF;
+    padding: 10px;
+}
+
+button {
+    position: relative;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 12px 10px;
+    cursor: pointer;
+    border-radius: 10px;
+    margin: 3px;
+}
+
+
+main {
+    width: 100%; /* Adicionamos largura de 100% para ocupar todo o espaço disponível */
+}
+
+
+table,
+td {
+    padding: 2px;
+    border: 2px solid;
+    border-radius: 5px;
+}
+
+tr {
+    text-align: center;
+    margin-top: 5px;
+}
+
+.tb {
+    position: relative;
+    /*background-color: rgb(90, 89, 89);*/
+    width: 100%;
+    user-select: none;
+    text-align: left;
+}
+
+#busca {
+    position: relative;
+    width: 30%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.textinput {
+    width: calc(60% - 10px);
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content/Box */
+  .modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  .modal-header {
+    padding: 2px 16px;
+    background-color: rgb(146, 146, 146);
+    color: white;
+}
+
+.modal-body {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: auto;
+    padding: 0;
+    justify-content: center;
+}
+
+.modal-footer {
+    padding: 2px 16px;
+    background-color: rgb(146, 146, 146);
+    color: white;
+}

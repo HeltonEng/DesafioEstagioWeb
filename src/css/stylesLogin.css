@@ -1,0 +1,65 @@
+body{
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    color: white;
+}
+.texto{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 30%;
+    height: 35%;
+    background-color: black;
+    padding: 20px;
+    border-radius: 10px;
+}
+input{
+    width: 50%;
+    padding: 10px;
+}
+.sub{
+    border: 3px solid dodgerblue;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    width: 50%;
+}
+.sub:hover{
+    background-color: dodgerblue;
+}
+
+@media screen and (max-width: 640px) {
+body{
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    color: white;
+}
+.texto{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 80%;
+    height: 300px;
+    background-color: black;
+    padding: 20px;
+    border-radius: 10px;
+}
+input{
+    width: 80%;
+    padding: 10px;
+}
+.sub{
+    border: 3px solid dodgerblue;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    width: 50%;
+}
+.sub:hover{
+    background-color: dodgerblue;
+}
+}
