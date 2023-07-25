@@ -1,4 +1,4 @@
-# DesafioEstagioWeb
+# Desafio Estagio 
 Monte um projeto no php, faz a conexão com o banco MySQL, cria no banco uma tabela colaboradores, com os campos id, nome, senha. 
 Então no php com JS, HTML, Css criar uma tela de login com os campos login e senha, e um botão entrar, quando clicar no botão entrar vai fazer a validação se o usuário existe e se a senha é correta, então acessa a página, criar um menu lateral com o menu colaboradores , quando clicar nele abre a tela mostrando os colaboradores já cadastrados em uma lista, criar um campo para digitar o nome e um botão para pesquisar o colaborador pelo nome e filtrar nessa lista de colaboradores, criar um botão inserir, quando clicar nele abrir tela para o cadastro mostrando o id, nome e senha e um botão cadastrar, quando clicado vai inserir os dados no banco e vai voltar atualizando a lista de colaboradores para mostrar o cadastro inserido. 
 Vai criar outro botão na tela onde mostra a lista de colaboradores, Editar. Então quando clicado nele vai carregar os dados do colaborador na tela com os dados dele para alterar.
