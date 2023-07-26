@@ -10,7 +10,7 @@ Criação do Banco de dados abra o phpmyadmin "http://localhost/phpmyadmin/" cri
 # Imagens do Sistema
 
 - Tela de Login
-<img src="https://github.com/HeltonEng/DesafioEstagioWeb/blob/main/img/Login.jpg"/>
+<img width="50%" src="https://github.com/HeltonEng/DesafioEstagioWeb/blob/main/img/Login.jpg"/>
 
 - Tela de Principal
 <img src="https://github.com/HeltonEng/DesafioEstagioWeb/blob/main/img/Principal.jpg"/>
